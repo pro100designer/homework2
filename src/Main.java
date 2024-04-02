@@ -43,14 +43,16 @@ public class Main {
         System.out.println(frog);
 
         System.out.println("Задача №6");
-        var boxer1=78.2;
-        var boxer2=82.7;
-        var result=boxer1+boxer2;
-        System.out.println(result);
+        var firstBoxer=78.2;
+        var secondBoxer=82.7;
+        var result=firstBoxer+secondBoxer;
+        System.out.println("Общая масса - " + result);
+        var differenceWeight= secondBoxer-firstBoxer;
+        System.out.println("Разница масс - " + differenceWeight);
 
         System.out.println("Задача №7!");
-        result=boxer2/boxer1;
-        System.out.println(result);
+        result=secondBoxer%firstBoxer;
+        System.out.println("Остаток от деления масс- " + result);
 
         System.out.println("Задача №8!");
         var totalHoursOfOperation=640;
